@@ -7,13 +7,12 @@ body {
     color: yellow;
 }
 
-.container {
-    padding: 10px; 
-    margin: 0 auto;
+.container-fluid {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #EEEE00;
     cursor:pointer;
+    justify-content: space-evenly;
 }
 
 .title{

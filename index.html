@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Batman Trivia</title>
     <!-- javascript and jquery -->
@@ -17,34 +17,33 @@
 </head>
 
 <body>
-
-
-    <div class="container">
+<!-- container-fluid takes 100% of the screen -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12">
         <!-- AUDIO -->
         <audio controls>
             <source src="assets/Batman Begins OST End Credits.mp3" type="audio/mp3" />
         </audio>
-
         <!-- Title -->
-        <div class="title">Batman Trivia</div>
-
+                <div class="title">Batman Trivia</div>
         <!-- Quiz Area--------------------------------->
-        <div class="container2">
             <div id="timeleft"></div>
             <div id="questionDiv"></div>
             <div id="answerDiv"></div>
             <button type="button" class="btn btn-dark" id="start">Begin</button>
             <button type="button" class="btn btn-dark" id="reset">Replay?</button>
-        </div>
+        </div> 
     </div>
-
+</div>
     <!-- Footer--------------------------------->
+<div class="row">
+        <div class="col-xs-12 col-sm-12">
     <footer class="fixed-bottom">
-        <div class="container text-center">
             <p class="text-center"><small>Characters by DC Comics©</small></p>
-        </div>
     </footer>
-
+        </div>
+</div>
 
 </body>
 
