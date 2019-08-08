@@ -1,8 +1,16 @@
+html, body{ 
+    height: 100vh;
+}
+
 body {
     background-image: url("https://www.technocrazed.com/wp-content/uploads/2015/11/batman-logo-wallpaper-for-desktop-1080p-119.jpg");
     background-size: cover;    
     background-attachment: fixed;
     background-position: center;
+}
+
+audio {
+    margin-top: 20px;
 }
 
 #start, #reset {
@@ -18,11 +26,10 @@ body {
 }
 
 .title{
-    font-size: 90px;
     text-align: center;
 
 }
-p {font-size: 20px;
+p {
     color:white;
     font-family: 'Courier New', Courier, monospace
 }
