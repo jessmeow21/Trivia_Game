@@ -12,32 +12,29 @@ $(document).ready(function () {
             question: "Who were the creator(s) of Batman?",
             choice: ["Bob Kane", "Christopher Nolan", "Bill Finger", "Bill Finger and Bob Kane"],
             answer: 3,
-            photo: "assets/images/batmananimated.gif"
+            photo: "assets/images/sm_batmananimated.gif"
         },
 
         {
             question: "What does Batman do as Bruce Wayne?",
             choice: ["Philanthropy", "Detective", "Spelunking", "Hacking the GCPD database"],
             answer: 0,
-            photo: "assets/images/brucewaynePhilanthropy.gif"
+            photo: "assets/images/sm_brucewaynePhilanthropy.gif"
         },
 
         {
             question: "What super group is Batman a part of?",
             choice: ["The Avengers", "League of Shadows", "Suicide Squad", "Justice League"],
             answer: 3,
-            photo: "assets/images/jl.gif"
+            photo: "assets/images/sm_jl.gif"
         },
 
         {
             question: "Why can't Batman ever kill the Joker?",
             choice: ["He's funny", "He loves him", "He wants the Joker to improve on his jokes", "He vowed to never kill"],
             answer: 3,
-            photo: "assets/images/joker.gif"
+            photo: "assets/images/sm_joker.gif"
         }];
-
-
-
 
     //global variables================================================
     var correctCount = 0;
