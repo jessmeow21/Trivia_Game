@@ -15,6 +15,7 @@ audio {
 
 #start, #reset {
     color: yellow;
+    box-shadow: 5px 5px #111111;
 }
 
 .container-fluid {
